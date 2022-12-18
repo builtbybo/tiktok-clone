@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { NextPage } from 'next'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
-import GoogleLogin from 'react-google-login'
+// import {GoogleLogin} from '@react-oauth/google'
 import { AiFillHome, AiOutlineMenu } from 'react-icons/ai'
 import { ImCancelCircle } from 'react-icons/im'
 
@@ -44,7 +44,7 @@ function Sidebar() {
                 </p>
 
                 <div className='pr-4'>
-                    <GoogleLogin 
+                    {/* <GoogleLogin 
                       clientId=''
                       render={ (renderProps)=> (
                         <button
@@ -58,7 +58,7 @@ function Sidebar() {
                       onSuccess={()=> {}}
                       onFailure={()=> {}}
                       cookiePolicy="single_host_origin"
-                    />
+                    /> */}
                 </div>
             </div>
           )}
