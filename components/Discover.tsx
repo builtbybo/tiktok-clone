@@ -12,7 +12,6 @@ const Discover = () => {
 
   const activeTopicStyle = "xl:border-2 hover:bg-primary xl:border-[#fe2c55] px-3 py-2  rounded-md xl:rounded-full flex items-center gap-2 justify-center cursor-pointer text-[#fe2c55]";
 
-
   const topicStyle = "xl:border-2 hover:bg-primary xl:border-[] px-3 py-2  rounded-md xl:rounded-full flex items-center gap-2 justify-center cursor-pointer text-black";
 
   return (
