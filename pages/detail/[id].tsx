@@ -167,7 +167,7 @@ const handleLike =  async(like:boolean) => {
                 comment={comment}
                 setComment={setComment}
                 addComment={addComment}
-                /* tslint:disable-next-line */
+                /* @ts-ignore */
                 comments={post.comments}
                 isPostingComment={isPostingComment}
 
