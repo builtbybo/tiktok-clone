@@ -61,12 +61,14 @@ const Navbar = () => {
         <div>
           {userProfile ? (
             <div className='flex gap-5 md:gap-10'> 
+
               <Link href="/upload">
-                <button className='border-2 px-2 md:px-4 text-md font-semibold flex items-center gap-2 '>
+                <button className='border border-gray-300 p-2 md:px-4 text-md font-semibold flex items-center justify-center gap-2 '>
                   <IoMdAdd className='text-xl ' /> {` `}
                   <span className='hidden md:block'>Upload</span>
                 </button>
               </Link>
+
               {userProfile.image && (
                  <Link href="/">
                  <>
